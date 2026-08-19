@@ -6,6 +6,11 @@
     <meta name="description" content="Xinyun Xie — Ph.D. candidate at Beihang University.">
     <title>Xinyun Xie | Academic Homepage</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      .about-video{display:grid;grid-template-columns:minmax(220px,.62fr) minmax(0,1fr);gap:28px;align-items:center;margin-top:54px;padding:25px;border:1px solid #d7e0f0;background:#f5f8ff}
+      .about-video .section-kicker{margin-bottom:12px}.about-video h3{margin:0;font-size:22px;letter-spacing:-.035em}.about-video p:not(.section-kicker){margin:12px 0 0;color:#536174;font-size:13px;line-height:1.75}.about-video video{width:100%;display:block;border-radius:3px;background:#111827;aspect-ratio:995/518;object-fit:cover}
+      @media(max-width:920px){.about-video{grid-template-columns:1fr}}
+    </style>
   </head>
   <body>
     <main class="site-shell">
@@ -30,6 +35,7 @@
           <h2>Measuring deformation,<br><span>enabling intelligent touch.</span></h2>
           <p class="intro-text">I am a Ph.D. candidate at Beihang University advised by Prof. Qinghua Wang. My work bridges experimental mechanics, optical full-field measurement and robot perception. I develop measurement methods for materials under complex conditions and explore visuotactile sensing for dexterous manipulation.</p>
           <div class="fact-grid"><div><span>EDUCATION</span><strong>Ph.D. in Aerospace Propulsion Theory &amp; Engineering</strong></div><div><span>FOCUS</span><strong>Optical mechanics · Visuotactile sensing · Embodied intelligence</strong></div><div><span>METHODS</span><strong>SMM · DIC · PPM · Image processing · MATLAB · Python</strong></div></div>
+          <div class="about-video"><div class="video-copy"><p class="section-kicker">FINGERTIP VISUOTACTILE DEMO</p><h3>Real-time fingertip tactile perception</h3><p>Self-developed real-time fingertip visuotactile sensing based on a curved, monocular grayscale camera. The system captures contact-induced deformation for tactile perception and interaction.</p></div><video controls preload="metadata" playsinline><source src="fingertip-visuotactile-demo.mp4" type="video/mp4">Your browser does not support embedded video playback.</video></div>
         </section>
 
         <section id="research" class="section-block research-section">
